@@ -3,7 +3,7 @@
 // Changes Copyright (c) 2019 Misakai Limited
 // Original Copyright (c) 2017 Black Square Media
 
-package ratelimit
+package rate
 
 import (
 	"sync"
@@ -135,5 +135,5 @@ func BenchmarkLimit(b *testing.B) {
 
 func TestGinkgoSuite(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "github.com/bsm/ratelimit")
+	RunSpecs(t, "github.com/kelindar/rate")
 }

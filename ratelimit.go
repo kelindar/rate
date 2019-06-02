@@ -3,7 +3,7 @@
 // Changes Copyright (c) 2019 Misakai Limited
 // Original Copyright (c) 2017 Black Square Media
 
-package ratelimit
+package rate
 
 import (
 	"sync/atomic"
