@@ -1,3 +1,8 @@
+// Simple, thread-safe Go rate-limiter. This is a fork of https://github.com/bsm/ratelimit
+// Inspired by Antti Huima's algorithm on http://stackoverflow.com/a/668327
+// Changes Copyright (c) 2019 Misakai Limited
+// Original Copyright (c) 2017 Black Square Media
+
 package ratelimit
 
 import (
@@ -9,7 +14,7 @@ import (
 	. "github.com/onsi/gomega"
 )
 
-var _ = Describe("RateLimiter", func() {
+var _ = Describe("Limiter", func() {
 
 	It("should accurately rate-limit at small rates", func() {
 		var count int

@@ -1,4 +1,4 @@
-module github.com/bsm/ratelimit
+module github.com/kelindar/rate
 
 require (
 	github.com/onsi/ginkgo v1.7.0
